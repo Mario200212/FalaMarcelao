@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
+
+		<!-- Note for MacCatalyst:
+		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
+		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
+		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
+		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
+		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
+
+		<OutputType>Exe</OutputType>
+		<RootNamespace>FalaMarcelãov3</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Display name -->
+		<ApplicationTitle>FalaMarcelãov3</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.falamarcelov3</ApplicationId>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+		<AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
+		<AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+		<AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+		<AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+		<GenerateTestArtifacts>True</GenerateTestArtifacts>
+		<GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+		<HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\iconeapp.png" ForegroundFile="Resources\AppIcon\iconeapp.png" Color="#512BD4" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiAsset Remove="Resources\Raw\pt_BR.aff" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\a.png" />
+	  <None Remove="Resources\Images\aagud.png" />
+	  <None Remove="Resources\Images\ara.png" />
+	  <None Remove="Resources\Images\asa.png" />
+	  <None Remove="Resources\Images\b.png" />
+	  <None Remove="Resources\Images\cacocu.png" />
+	  <None Remove="Resources\Images\ccidilha.png" />
+	  <None Remove="Resources\Images\ceci.png" />
+	  <None Remove="Resources\Images\ch.png" />
+	  <None Remove="Resources\Images\d.png" />
+	  <None Remove="Resources\Images\divided.png" />
+	  <None Remove="Resources\Images\e.png" />
+	  <None Remove="Resources\Images\f.png" />
+	  <None Remove="Resources\Images\gagogu.png" />
+	  <None Remove="Resources\Images\gegi.png" />
+	  <None Remove="Resources\Images\h.png" />
+	  <None Remove="Resources\Images\hultima.png" />
+	  <None Remove="Resources\Images\i.png" />
+	  <None Remove="Resources\Images\j.png" />
+	  <None Remove="Resources\Images\k.png" />
+	  <None Remove="Resources\Images\l.png" />
+	  <None Remove="Resources\Images\lh.png" />
+	  <None Remove="Resources\Images\m.png" />
+	  <None Remove="Resources\Images\n.png" />
+	  <None Remove="Resources\Images\next.png" />
+	  <None Remove="Resources\Images\nh.png" />
+	  <None Remove="Resources\Images\o.png" />
+	  <None Remove="Resources\Images\p.png" />
+	  <None Remove="Resources\Images\playbutton.png" />
+	  <None Remove="Resources\Images\previous.png" />
+	  <None Remove="Resources\Images\qu.png" />
+	  <None Remove="Resources\Images\rr.png" />
+	  <None Remove="Resources\Images\s.png" />
+	  <None Remove="Resources\Images\t.png" />
+	  <None Remove="Resources\Images\u.png" />
+	  <None Remove="Resources\Images\v.png" />
+	  <None Remove="Resources\Images\x.png" />
+	  <None Remove="Resources\Images\z.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\Raw\pt_BR.aff" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.61" />
+		<PackageReference Include="NHunspell" Version="1.2.5554.16953" />
+		<PackageReference Include="System.Speech" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>

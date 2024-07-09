@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    ESTE ARQUIVO DE PACOTE DE MANIFESTO É GERADO PELO PROCESSO DE COMPILAÇÃO.
+
+    Alterações feitas neste arquivo serão perdidas quando ele for regenerado. Para corrigir erros neste arquivo, edite o arquivo de fonte .appxmanifest.
+
+    Para obter mais informações sobre arquivos de pacote de manifesto consulte http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="YMS.3469703B8736A" Publisher="CN=0D44F423-8065-4745-8099-BFD4C481649C" Version="1.1.1.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="e9b06fe8-24d2-410b-9d93-085b92d26665" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>FalaMarcelão</DisplayName>
+    <PublisherDisplayName>YMS</PublisherDisplayName>
+    <Logo>iconeappStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.5" MinVersion="5001.70.1338.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="FalaMarcelãov3.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="FalaMarcelão" Description="FalaMarcelãov3" Square150x150Logo="iconeappMediumTile.png" Square44x44Logo="iconeappLogo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="iconeappSmallTile.png" Wide310x150Logo="iconeappWideTile.png" Square310x310Logo="iconeappLargeTile.png" ShortName="FalaMarcelãov3">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="splashSplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2403" />
+    <build:Item Name="makepri.exe" Version="10.0.22621.755 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

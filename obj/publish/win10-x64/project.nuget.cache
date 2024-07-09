@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "YNIunEWTNjw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\FalaMarcelãov3\\FalaMarcelãov3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.logging.debug\\8.0.0\\microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.controls\\8.0.21\\microsoft.maui.controls.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.21\\microsoft.maui.controls.build.tasks.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.21\\microsoft.maui.controls.compatibility.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.21\\microsoft.maui.controls.core.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.21\\microsoft.maui.controls.xaml.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.core\\8.0.21\\microsoft.maui.core.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.essentials\\8.0.61\\microsoft.maui.essentials.8.0.61.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.graphics\\8.0.61\\microsoft.maui.graphics.8.0.61.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.21\\microsoft.maui.graphics.win2d.winui.desktop.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.21\\microsoft.maui.resizetizer.8.0.21.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\nhunspell\\1.2.5554.16953\\nhunspell.1.2.5554.16953.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\system.speech\\8.0.0\\system.speech.8.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.5\\microsoft.netcore.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.5\\microsoft.aspnetcore.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'NHunspell 1.2.5554.16953' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0-windows10.0.19041'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "NHunspell",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041"
+      ]
+    }
+  ]
+}

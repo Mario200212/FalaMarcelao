@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FalaMarcelãov3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="50">
+
+            <Grid 
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start"
+            ColumnDefinitions="*, auto"
+            Padding="0,10,0,0">
+
+                <Editor
+                x:Name="EditorText"
+                AutoSize="TextChanges"
+                Placeholder="Digite seu texto aqui..."
+                VerticalOptions="FillAndExpand"
+                HeightRequest="150"
+                HorizontalOptions="FillAndExpand"
+                Margin="10"
+                BackgroundColor="LightGray"
+                Grid.Column="0"
+                FontSize="30"
+                TextColor="Black"
+                PlaceholderColor="Gray"    />
+
+                <VerticalStackLayout
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End"
+                Grid.Column="1"
+            >
+                    <Button x:Name="Speak_Button"
+                   
+                    Margin="10,20,10,10"
+                    Clicked="OnSpeakButtonClicked"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightGray"
+                    ImageSource="playbutton.png"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Padding="10"/>
+
+                    <Button x:Name="Divide_Palavra_Button"
+                    ImageSource="divided.png"
+                    Margin="10,20,10,10"
+                    BackgroundColor="LightGray"
+                    Clicked="BotaoDividePalavras"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Padding="10"/>
+                </VerticalStackLayout>
+            </Grid>
+            
+            
+            <Slider x:Name="SpeedSlider"
+            Minimum="-10.0"
+            Maximum="10.0"
+            Value="0.0"
+            VerticalOptions="Center"
+            WidthRequest="500"
+            MinimumTrackColor="DarkGray"
+            MaximumTrackColor="LightGray"
+            ThumbColor="Gray"/>
+            <VerticalStackLayout
+            Spacing="20">
+                <!-- Adicionando os três botões aqui -->
+                <HorizontalStackLayout
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Spacing="20"
+                Padding="0">
+
+                    <Button 
+                    x:Name="Play_Palavra_Atual"
+                    ImageSource="playbutton.png"
+                    BackgroundColor="LightGray"
+                    Clicked="BotaoPlayPalavraAtual"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Padding="10"/>
+
+                    <Button 
+                    x:Name="Proxima_Palavra"
+                    ImageSource="next.png"
+                    BackgroundColor="LightGray"
+                    Clicked="BotaoProximaPalavra"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Padding="10"/>
+                    <Button 
+                    x:Name="Palavra_Anterior"
+                    ImageSource="previous.png"
+                    BackgroundColor="LightGray"
+                    Clicked="BotaoPalavraAnterior"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    Padding="10"/>
+                </HorizontalStackLayout>
+
+                <ScrollView Orientation="Horizontal">
+                    <Grid
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightGray"
+                    HeightRequest="300">
+                        <HorizontalStackLayout
+                        x:Name="ImagesContainer"
+                        Spacing="10"
+                        Padding="10"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand">
+                            <!-- Suas imagens ou elementos vão aqui -->
+                        </HorizontalStackLayout>
+                    </Grid>
+                </ScrollView>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
