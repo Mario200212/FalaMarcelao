@@ -9,8 +9,8 @@ The FalaMarcelão app is now available on the Microsoft Store. <a href="https://
 
 - [Installation](#installation)
 - [Project Background](#project-background)
-- [How to Contribute](#how-to-contribute)
 - [Mouth Image Database](#mouth-image-database)
+- [How to Contribute](#how-to-contribute)
   
 ## Installation
 - Clone the repository:
