@@ -26,6 +26,12 @@ In general, for the development of the application, only two files from this rep
 - MainPage.xaml.cs: Used for building the entire backend of the application (Text-to-Speech, Text-to-Mouths, ...)
 
 ## Mouth Image Database
+The project's image files are available in the 'Resources/Images' folder. See some examples below:
+<div style="display: flex; justify-content: space-between;">
+    <img src="Resources/Images/a.png" alt="Descrição da Imagem 1" style="width: 30%; height: auto;">
+    <img src="Resources/Images/b.png" alt="Descrição da Imagem 2" style="width: 30%; height: auto;">
+    <img src="Resources/Images/m.png" alt="Descrição da Imagem 3" style="width: 30%; height: auto;">
+</div>
 
 
 ## How to Contribute
