@@ -8,7 +8,7 @@ The FalaMarcelão App consists of an intuitive interface that takes a sentence o
 
 - [Installation](#installation)
 - [Project Background](#project-background)
-- [Contribution](#contribution)
+- [How to Contribute](#how-to-contribute)
 - [License](#license)
   
 ## Installation
@@ -23,3 +23,14 @@ The FalaMarcelão App consists of an intuitive interface that takes a sentence o
 In general, for the development of the application, only two files from this repository were used:
 - MainPage.xaml: Used to create the visual interface of the application
 - MainPage.xaml.cs: Used for building the entire backend of the application (Text-to-Speech, Text-to-Mouths, ...)
+
+## How to Contribute
+
+
+
+
+
+
+
+
+
