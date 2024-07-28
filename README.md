@@ -17,4 +17,6 @@ The FalaMarcelão App consists of an intuitive interface that takes a sentence o
     git clone https://github.com/Mario200212/FalaMarcelao.git
     ```
 ## Project Background
-
+- Language Used: C#
+- Framework Used: .NET MAUI
+### Development Notes: 
