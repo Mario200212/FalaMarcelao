@@ -19,4 +19,4 @@ The FalaMarcelão App consists of an intuitive interface that takes a sentence o
 ## Project Background
 - Language Used: C#
 - Framework Used: .NET MAUI
- ### Development Notes: 
+  ### Development Notes: 
