@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\marce\source\repos\FalaMarcelãov3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-08T20:21:27.357</Modified>
+      <Modified>2024-07-28T23:38:24.715</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marce\source\repos\FalaMarcelãov3\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FalaMarcelãov3.dll">
       <PackagePath>FalaMarcelãov3.dll</PackagePath>
-      <Modified>2024-07-08T20:21:26.918</Modified>
+      <Modified>2024-07-28T23:38:23.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marce\source\repos\FalaMarcelãov3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FalaMarcelãov3.exe</PackagePath>
-      <Modified>2024-07-08T20:21:26.923</Modified>
+      <Modified>2024-07-28T23:38:23.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marce\source\repos\FalaMarcelãov3\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

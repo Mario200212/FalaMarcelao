@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FalaMarcelãov3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+56160ff58a6a8c1fb5e0e9f289bb9c108de4b1da")]
 [assembly: System.Reflection.AssemblyProductAttribute("FalaMarcelãov3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FalaMarcelãov3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
