@@ -43,7 +43,7 @@ There are several ways you can contribute to this project:
 **Mouth Images:**
 - You can provide photos of mouths representing all the phonemes of a language you know.
 - If photos of the phonemes for a given language already exist, you can use tools like Canva to format the images according to the following pattern:
-  {photo_here}
+<img src="Resources/Images/a.png" alt="Descrição da Imagem 1" style="width: 20%; height: auto;">
 
 **Programming:**
 - If you are proficient in C# with the .NET MAUI framework, you can help by implementing the logic to convert Text to Mouths (see `MainPage.xaml.cs` for reference).
