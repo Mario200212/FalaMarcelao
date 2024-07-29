@@ -10,7 +10,7 @@ The FalaMarcelão app is now available on the Microsoft Store. <a href="https://
 - [Installation](#installation)
 - [Project Background](#project-background)
 - [Mouth Image Database](#mouth-image-database)
-- [How to Contribute](#how-to-contribute)
+- [Contributing to the Project](#contributing-to-the-project)
   
 ## Installation
 - Clone the repository:
@@ -34,7 +34,24 @@ The project's image files are available in the 'Resources/Images' folder. See so
 </div>
 
 
-## How to Contribute
+## Contributing to the Project
+
+There are several ways you can contribute to this project:
+
+### 1. Expanding the App to Other Languages
+
+#### 1.1 Mouth Images
+- Provide photos of mouths representing all the phonemes of a language you know.
+- If photos for the phonemes of a given language already exist, you can use a tool like Canva to format the images as follows:
+  {photo_here}
+
+#### 1.2 Programming
+- If you are familiar with C# and the .NET MAUI framework, you can implement the logic to convert Text to Mouths (see `MainPage.xaml.cs`).
+- **Note 1:** If you are implementing the app in a language other than Brazilian Portuguese, please make a copy of the initial repository and submit it as a new branch. I will handle merging your language implementation with the existing languages into a single app.
+- **Note 2:** We will always give proper credit for all contributions made by our contributors.
+- You can also enhance the algorithm used for Text to Mouth conversion and implement any new ideas that could improve the current app.
+
+Thank you for your interest in contributing to the project!
 
 
 
