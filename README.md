@@ -11,6 +11,7 @@ The FalaMarcelão app is now available on the Microsoft Store. <a href="https://
 - [Project Background](#project-background)
 - [Mouth Image Database](#mouth-image-database)
 - [Contributing to the Project](#contributing-to-the-project)
+- [License](#license)
   
 ## Installation
 - Clone the repository:
@@ -54,8 +55,20 @@ There are several ways you can contribute to this project:
 
 - You can improve the algorithm used for converting Text to Mouths, as well as implement any new features or ideas that you believe would enhance the current app.
 
-
 Thank you for your interest in contributing to the project!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+### Summary of the MIT License
+
+The MIT License is a permissive free software license that allows for virtually unrestricted use, copying, modification, merging, publishing, distribution, sublicensing, and selling of the software. The only requirement is that the original copyright notice and the permission notice must be included in all copies or substantial portions of the software.
+
+**Disclaimer:** The software is provided "as is", without warranty of any kind. The authors are not liable for any claims, damages, or other liabilities arising from the use of the software.
+
+For more details, you can refer to the full text of the license [here](LICENSE.txt).
+
 
 
 
