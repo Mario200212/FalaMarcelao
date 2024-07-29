@@ -34,7 +34,7 @@ The project's image files are available in the 'Resources/Images' folder. See so
 </div>
 
 
-## How to Contribute
+## Contributing to the Project
 
 There are several ways you can contribute to this project:
 
