@@ -42,7 +42,7 @@ There are several ways you can contribute to this project:
 ### 1. Expanding the App to Other Languages
 
 **Mouth Images:**
-- You can provide photos of mouths representing all the phonemes of a language you know.
+- You can provide photos of mouths representing all the phonemes of a language you know. Please create a folder in the repository named after the language you have chosen and place all the images of the phonemes for that language inside it.
 - If photos of the phonemes for a given language already exist, you can use tools like Canva to format the images according to the following pattern:
 <img src="Resources/Images/a.png" alt="Descrição da Imagem 1" style="width: 20%; height: auto;">
 
