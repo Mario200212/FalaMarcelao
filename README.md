@@ -34,22 +34,26 @@ The project's image files are available in the 'Resources/Images' folder. See so
 </div>
 
 
-## Contributing to the Project
+## How to Contribute
 
 There are several ways you can contribute to this project:
 
 ### 1. Expanding the App to Other Languages
 
-#### 1.1 Mouth Images
-- Provide photos of mouths representing all the phonemes of a language you know.
-- If photos for the phonemes of a given language already exist, you can use a tool like Canva to format the images as follows:
+**Mouth Images:**
+- You can provide photos of mouths representing all the phonemes of a language you know.
+- If photos of the phonemes for a given language already exist, you can use tools like Canva to format the images according to the following pattern:
   {photo_here}
 
-#### 1.2 Programming
-- If you are familiar with C# and the .NET MAUI framework, you can implement the logic to convert Text to Mouths (see `MainPage.xaml.cs`).
-- **Note 1:** If you are implementing the app in a language other than Brazilian Portuguese, please make a copy of the initial repository and submit it as a new branch. I will handle merging your language implementation with the existing languages into a single app.
+**Programming:**
+- If you are proficient in C# with the .NET MAUI framework, you can help by implementing the logic to convert Text to Mouths (see `MainPage.xaml.cs` for reference).
+- **Note 1:** If you are adding support for a language other than Brazilian Portuguese, please fork the initial repository and submit your changes as a new branch. I will merge your implemented language with the existing ones into a single app.
 - **Note 2:** We will always give proper credit for all contributions made by our contributors.
-- You can also enhance the algorithm used for Text to Mouth conversion and implement any new ideas that could improve the current app.
+
+### 2. Enhancing the Current App
+
+- You can improve the algorithm used for converting Text to Mouths, as well as implement any new features or ideas that you believe would enhance the current app.
+
 
 Thank you for your interest in contributing to the project!
 
